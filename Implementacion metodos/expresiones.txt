@@ -1,0 +1,13 @@
+b=7
+a = 32.4 *(-8.6 - b)/       6.1E-8
+d = a ^ b //Esto es un comentario
+
+_Esto es un error a proposito -1*3 +4
+manzana3
+//otro comentario
+variable2
+3 - 8 *7 -4.5e8
+
+
+
+

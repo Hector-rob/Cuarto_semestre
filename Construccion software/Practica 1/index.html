@@ -1,0 +1,92 @@
+
+<!-- esto es un comentario-->
+<!--html usa tags-->
+<!--html no contiene logica-->
+<!--describe una interfaz-->
+<html>
+<!-- abarca todo el código-->
+    <head>
+        <title> PRACTICA BÁSICA DE HTML </title>
+    </head>
+    <script src="script.js">
+    </script>
+
+    <!-- estilos -->
+    <!-- CSS -->
+    <!-- cascading styles sheets-->
+    <!-- ademas de embeber se pueden definir clases o estilos por id en otra región-->
+    <!-- clase: se puede definir como algo reutilizable-->
+    <link rel="stylesheet" href="estilos.css">
+    <body onload="ejemplo">
+        <!-- Alinear texto por html-->
+        <center>
+            <!-- Encabezado-->
+             <h1> Encabezado 1 </h1> 
+        </center>
+        Lorem ipsum bla bla
+        <!-- p es parrafo-->
+        <p> Esto es para parrafos </p>
+        <!-- br es line break o salto de linea-->
+        <button> Registrarse </button>
+        <br/>
+        <!--span y div usados para agrupar-->
+        <!-- span en si mismo solo agrupa y se usa con css-->
+        <span id="idcoqueto">
+            Lorem <span style="font-weight:bold"> LOLO </span> Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+             a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+             remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+             Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
+             versions of Lorem Ipsum.
+        </span>
+        <!-- div también agrupa pero se comporta como un bloque físico-->
+        <br>
+        <br>
+        <div class="clasegg">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
+            versions of Lorem Ipsum.
+        </div>
+        <!--tablas -->
+        <table>
+            <!--tr es table row, define hilera compuesta de celdas-->
+            <tr>
+                <!--td, table data, es una celda individual-->
+                <td>
+
+                </td>
+            </tr>
+        </table>
+        <img src="maik.jpeg" alt="">
+        <br>
+        <br>
+        <button onclick="boton2()"> Boton 2</button>
+        <button onclick="boton3()"> Boton 3</button>
+        <br>
+        <br>
+        <p id="parrafito"> Hola soy un parrafo </p>
+        <br>
+        <br>
+        <br>
+        <!-- embeber estilo -->
+        <div style = "font-size: 32pt; color:blue; text-align: center; background-color: yellowgreen;">
+            Hola ggs como stas jaja bien y tu yo bien gracias
+        </div>
+        <br>
+        <div style="position: relative; left: 100px; right: 100px; width: 500px; height: 500px; background-color: pink;">TExto chido
+        </div>
+
+        <!-- un link-->
+        <!--Tipos de ruta-->
+        <!-- Ruta absoluta: inclute toda la direccion-->
+        <!-- /index.html-->
+        <!--ruta relativa está basada en la ubicación actual-->
+        <!-- ./ es para el directorio actual y /.. es para el pasado-->
+        <a href="dos.html">Link a segunda p&aacute;gina</a>
+    </body>
+
+
+</html>

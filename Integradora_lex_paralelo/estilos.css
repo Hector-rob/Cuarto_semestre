@@ -1,0 +1,65 @@
+.pr{
+	display: inline;
+	white-space: pre;
+	background-color: yellow;
+}
+.ne{
+	display: inline;
+	white-space: pre;
+	background-color: lightgreen;
+}
+.nd{
+	display: inline;
+	white-space: pre;
+	color: white;
+	background-color: blue;
+}
+.var{
+	display: inline;
+	white-space: pre;
+	background-color: lime;
+}
+.str{
+	display: inline;
+	white-space: pre;
+	background-color: cyan;
+}
+.comment{
+	display: inline;
+	white-space: pre;
+	color: white;
+	background-color: grey;
+}
+.op{
+	display: inline;
+	white-space: pre;
+	background-color: pink;
+}
+.esc{
+	display: inline;
+	white-space: pre;
+	background-color: lightblue;
+}
+.tipod{
+	display: inline;
+	white-space: pre;
+	background-color: orange;
+}
+.varpunt{
+	display: inline;
+	white-space: pre;
+	color: white;
+	background-color: brown;
+}
+.sp{
+	display: inline;
+	white-space: pre;
+	color: white;
+	background-color: red;
+}
+.lib{
+	display: inline;
+	white-space: pre;
+	color: white;
+	background-color: black;
+}
